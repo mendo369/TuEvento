@@ -1,0 +1,11 @@
+.item {
+    min-height: 70px;
+    display:grid;
+    align-items: center;
+    border-bottom: 1px solid #F1F1F1;
+  }
+  form {
+    text-align: center;
+    margin: 20px;
+  }
+  

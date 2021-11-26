@@ -1,7 +1,20 @@
-<form #loginF="ngForm" (ngSubmit)="loginM(loginF)">
-    <input type="email" name="E"  [(ngModel)]="login.email">
-    <input type="password" name="P"  [(ngModel)]="login.password">
+<!-- <form #loginF="ngForm" (ngSubmit)="loginM(loginF)">
+    <input type="email" name="E"  [(ngModel)]="login.email" required>
+    <input type="password" name="P"  [(ngModel)]="login.password" required>
     <button type="submit" [disabled]="!loginF.form.valid">
-        comprobar
+        Ingresar
     </button>
-</form>
+</form> -->
+<div class="container">
+    <form #loginF="ngForm" (ngSubmit)="loginM(loginF)" class="item">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" [(ngModel)]="login.email" required>
+          </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" [(ngModel)]="login.password" required>
+        </div> 
+        <button type="submit" class="btn btn-primary">Ingresar</button>
+      </form>
+</div>

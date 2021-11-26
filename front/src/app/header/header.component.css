@@ -1,0 +1,15 @@
+a:link, a:visited{
+    background-color: #5b17b5;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover, a:active{
+    background-color: #c625f7;
+}
+#heading {
+    background:linear-gradient(to left, #2196F3, #009688);
+    /* text-align: center; */
+  }

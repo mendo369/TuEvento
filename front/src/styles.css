@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+    background:linear-gradient(to left, #2196F3, #009688);
+    font-family: 'helvetica neue';
+    /* background-image: url(./assets/image_1.jpg), #2196F3;
+    background-image: url(./assets/image_1.jpg);
+    background-image: url(./assets/image_1.jpg), linear-gradient(to left, #2196F3, #009688); 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;*/
+  }
+
