@@ -5,8 +5,8 @@
         Ingresar
     </button>
 </form> -->
-<div class="container">
-    <form #loginF="ngForm" (ngSubmit)="loginM(loginF)" class="item">
+<div class="box">
+    <form #loginF="ngForm" (ngSubmit)="loginM(loginF)" >
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Email</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" [(ngModel)]="login.email" required>

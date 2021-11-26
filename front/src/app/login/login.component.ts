@@ -20,7 +20,7 @@ export class LoginComponent{
     // console.log(this.login);
     //subscribe devuelve una respuesta
     this.services.postSendLogin(this.login).subscribe(res=>{ console.log(res)});
-    this.router.navigate(['login']);
+    //this.router.navigate(['login']);
   }
 
   login: loginM= new loginM();
