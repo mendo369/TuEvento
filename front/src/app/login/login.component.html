@@ -1,0 +1,7 @@
+<form #loginF="ngForm" (ngSubmit)="loginM(loginF)">
+    <input type="email" name="E"  [(ngModel)]="login.email">
+    <input type="password" name="P"  [(ngModel)]="login.password">
+    <button type="submit" [disabled]="!loginF.form.valid">
+        comprobar
+    </button>
+</form>
